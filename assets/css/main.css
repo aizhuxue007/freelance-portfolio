@@ -370,6 +370,18 @@ input, select, textarea {
 	width: 40%;
 }
 
+.work-gallery {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 1em;
+}
+
+.work {
+	border: 2px solid red;
+	flex-basis: 40%;
+	height: 100px;
+}
+
 /* Row */
 
 	.row {
