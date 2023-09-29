@@ -332,6 +332,23 @@ input, select, textarea {
 	}
 
 /* My CSS */
+
+#header {
+	margin-bottom: 4em;
+}
+
+.hero-img {
+	width: 30%;
+	max-width: 500px;
+}
+
+.hero-img img {
+	width: 100%;
+	max-height: auto;
+	display: block;
+	margin: 0 auto;
+}
+
 .justify-content {
 	justify-content: space-around;
 }
@@ -341,15 +358,16 @@ input, select, textarea {
 }
 
 .hero-description {
-	flex-grow: 1;
+	/* flex-grow: 1; */
 	display: flex;
+	flex-basis: 40%;
 	flex-direction: column;
 	justify-content: center;
+	text-align: left;
 }
 
 .hero-cta {
-	width: 50%;
-	align-self: center;
+	width: 40%;
 }
 
 /* Row */
