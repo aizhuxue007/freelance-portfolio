@@ -337,9 +337,13 @@ input, select, textarea {
 	margin-bottom: 4em;
 }
 
+
 .hero-img {
-	width: 30%;
+	width: 35%;
 	max-width: 500px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 
 .hero-img img {
