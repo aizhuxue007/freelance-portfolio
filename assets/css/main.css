@@ -364,7 +364,7 @@ input, select, textarea {
 .hero-description {
 	/* flex-grow: 1; */
 	display: flex;
-	flex-basis: 40%;
+	flex-basis: 45%;
 	flex-direction: column;
 	justify-content: center;
 	text-align: left;
@@ -374,16 +374,19 @@ input, select, textarea {
 	/* width: 40%; */
 }
 
-.work-gallery {
+.works {
 	display: flex;
-	justify-content: center;
-	gap: 1em;
+	flex-flow: column wrap;
+
 }
 
 .work {
 	border: 2px solid red;
 	padding: 3em;
-	flex-basis: 30%;
+}
+
+.features {
+	display: flex;
 }
 
 /* Row */
@@ -3827,9 +3830,6 @@ input, select, textarea {
 
 			#wrapper {
 				max-width: calc(100% - 2em);
-			}
-			.work-gallery {
-				flex-direction: column;
 			}
 		}
 
