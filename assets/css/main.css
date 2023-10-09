@@ -23,7 +23,10 @@ section, summary, time, mark, audio, video {
 	border: 0;
 	font-size: 100%;
 	font: inherit;
-	vertical-align: baseline;}
+	vertical-align: baseline;
+	text-align: left;
+
+}
 
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
@@ -337,15 +340,6 @@ input, select, textarea {
 	margin-bottom: 4em;
 }
 
-
-.hero-img {
-	width: 35%;
-	max-width: 500px;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-}
-
 .hero-img img {
 	width: 100%;
 	max-height: auto;
@@ -362,7 +356,6 @@ input, select, textarea {
 }
 
 .hero-description {
-	/* flex-grow: 1; */
 	display: flex;
 	flex-basis: 45%;
 	flex-direction: column;
@@ -371,7 +364,6 @@ input, select, textarea {
 }
 
 .hero-cta {
-	/* width: 40%; */
 }
 
 .works {
@@ -380,7 +372,6 @@ input, select, textarea {
 }
 
 .work {
-	padding: 1.2em;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
@@ -388,7 +379,7 @@ input, select, textarea {
 
 .work__links {
 	display: flex;
-	justify-content: space-around;
+	gap: 2em;
 	padding-bottom: 1em;
 }
 
@@ -403,8 +394,35 @@ input, select, textarea {
 	margin: 0 auto;
 }
 
+#my-services {
+	
+}
+
 .features {
 	display: flex;
+	margin: 0;
+}
+
+.features article {
+	flex-basis: 100%;
+	max-width: 900px;
+}
+
+#about-me {
+	display: flex;
+}
+
+.about-me__pic {
+	width: 50%;
+	max-width: 600px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.socials {
+	display: flex;
+	justify-content: center;
 }
 
 /* Row */
@@ -3284,13 +3302,16 @@ input, select, textarea {
 			transform: scale(0.8) rotate(-30deg);
 		}
 
+
+h2::after {
+	display: none;
+}
 /* Nav */
 
 	#nav {
 		-moz-transition: background-color 0.2s ease, border-top-left-radius 0.2s ease, border-top-right-radius 0.2s ease, padding 0.2s ease;
 		-webkit-transition: background-color 0.2s ease, border-top-left-radius 0.2s ease, border-top-right-radius 0.2s ease, padding 0.2s ease;
 		-ms-transition: background-color 0.2s ease, border-top-left-radius 0.2s ease, border-top-right-radius 0.2s ease, padding 0.2s ease;
-		transition: background-color 0.2s ease, border-top-left-radius 0.2s ease, border-top-right-radius 0.2s ease, padding 0.2s ease;
 		background-color: #ffffff;
 		color: #636363;
 		position: absolute;
@@ -3620,13 +3641,6 @@ input, select, textarea {
 			color: #636363;
 		}
 
-		#main header.major h2:after {
-			background-color: #dddddd;
-			background-image: -moz-linear-gradient(90deg, #efa8b0, #a89cc8, #8cc9f0);
-			background-image: -webkit-linear-gradient(90deg, #efa8b0, #a89cc8, #8cc9f0);
-			background-image: -ms-linear-gradient(90deg, #efa8b0, #a89cc8, #8cc9f0);
-			background-image: linear-gradient(90deg, #efa8b0, #a89cc8, #8cc9f0);
-		}
 
 		#main table tbody tr {
 			border-color: #dddddd;
