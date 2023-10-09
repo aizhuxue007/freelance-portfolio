@@ -426,15 +426,19 @@ input, select, textarea {
 
 #about-me {
 	display: flex;
-	width: 100%;
 }
 
 .about-me__pic {
-	width: 50%;
+	flex-basis: 100%;
 	max-width: 600px;
 	display: flex;
 	justify-content: center;
 	align-items: center;
+}
+
+.about-me__pic img {
+	width: 80%;
+	height: 80%;
 }
 
 .socials {
@@ -3788,7 +3792,9 @@ h2::after {
 
 /* Footer */
 
-	
+#footer {
+	padding: 2em 0;
+}
 
 /* Wrapper */
 
