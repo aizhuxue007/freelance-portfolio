@@ -1,0 +1,18 @@
+
+Hope you enjoy your new logo, here are the people that
+made your beautiful logo happen :)
+font name: Kankin
+font link: https://www.fontfabric.com/kankin-free-font/
+font author: Font Fabric
+font author site: http://www.fontfabric.com/
+
+
+icon designer: Vectorstall
+icon designer link: /vectorstall
+        
+
+fontColor: {"hex":"#D17C84"}
+bgColor: {"hex":"#5849B3"}
+iconColor: {"hex":"#D17C84"}
+
+      
