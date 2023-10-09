@@ -377,12 +377,30 @@ input, select, textarea {
 .works {
 	display: flex;
 	flex-flow: column wrap;
-
 }
 
 .work {
-	border: 2px solid red;
-	padding: 3em;
+	padding: 1.2em;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.work__links {
+	display: flex;
+	justify-content: space-around;
+	padding-bottom: 1em;
+}
+
+.work__img-container {
+	max-width: 1000px;
+	margin: 0 auto;
+}
+
+.work__img-container img {
+	width: 100%;
+	height: 100%;
+	margin: 0 auto;
 }
 
 .features {
