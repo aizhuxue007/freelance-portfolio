@@ -399,6 +399,18 @@ input, select, textarea {
 	margin: 0 auto;
 }
 
+@media (min-width: 800px) {
+	.works {
+		flex-direction: row;
+		gap: 2em;
+		align-items: baseline;
+	}
+	.work {
+		flex-basis: 30%;
+		max-height: 200px;
+	}
+}
+
 #my-services {
 	
 }
