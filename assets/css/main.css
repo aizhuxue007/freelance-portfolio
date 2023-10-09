@@ -363,6 +363,11 @@ input, select, textarea {
 	text-align: left;
 }
 
+.video-circle {
+	border-radius: 50%;
+	object-fit: cover;
+}
+
 .hero-cta {
 }
 
@@ -400,12 +405,21 @@ input, select, textarea {
 
 .features {
 	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
 	margin: 0;
 }
 
 .features article {
-	flex-basis: 100%;
-	max-width: 900px;
+	flex-basis: 45%;
+	gap: 2em;
+	max-width: 700px;
+}
+
+.features p {
+	width: 90%;
+	max-width: 700px;
+	
 }
 
 #about-me {
