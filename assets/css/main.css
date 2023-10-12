@@ -340,6 +340,11 @@ input, select, textarea {
 	margin-bottom: 4em;
 }
 
+.hero {
+	display: flex;
+	justify-content: space-evenly;
+}
+
 .hero-img img {
 	width: 100%;
 	max-height: auto;
@@ -363,7 +368,16 @@ input, select, textarea {
 	text-align: left;
 }
 
+.hero-video {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
 .video-circle {
+	margin: 3em auto;
+	width: 90%;
+	height: 45%;
 	border-radius: 50%;
 	object-fit: cover;
 }
