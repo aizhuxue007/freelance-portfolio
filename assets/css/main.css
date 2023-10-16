@@ -342,14 +342,8 @@ input, select, textarea {
 
 .hero {
 	display: flex;
+	flex-direction: column;
 	justify-content: space-evenly;
-}
-
-.hero-img img {
-	width: 100%;
-	max-height: auto;
-	display: block;
-	margin: 0 auto;
 }
 
 .justify-content {
@@ -376,8 +370,8 @@ input, select, textarea {
 
 .video-circle {
 	margin: 3em auto;
-	width: 90%;
-	height: 45%;
+	width: 80%;
+	aspect-ratio: 3/3;
 	border-radius: 50%;
 	object-fit: cover;
 }
@@ -439,19 +433,18 @@ input, select, textarea {
 }
 
 .features article {
-	flex-basis: 45%;
-	gap: 2em;
+	text-align: center;
 	max-width: 700px;
 }
 
 .features p {
-	width: 90%;
-	max-width: 700px;
 	
 }
 
 #about-me {
 	display: flex;
+	flex-direction: column;
+	margin-bottom: 2em;
 }
 
 .about-me__pic {
@@ -3819,11 +3812,16 @@ h2::after {
 /* Footer */
 
 #footer {
-	padding: 2em 0;
+	padding: 2em 1.5em;
+} 
+@media (min-width: 900px) {
+	#about .main {
+		flex-direction: row;
+	}
 }
 
 /* Wrapper */
-
+/* 
 	#wrapper {
 		width: 64em;
 		max-width: calc(100% - 4em);
@@ -3843,4 +3841,9 @@ h2::after {
 				max-width: 100%;
 			}
 
-		}
+		} */ 
+@media (min-width: 900px) {
+	.hero {
+		flex-direction: row;
+	}
+}
