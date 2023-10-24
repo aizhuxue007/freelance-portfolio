@@ -521,8 +521,7 @@ hr {
 
 .work__img-container {
 	max-width: 1000px;
-	max-height: 700px;
-	margin: 0 auto;
+	max-height: 180px;
 	overflow: hidden;
 }
 
@@ -541,7 +540,6 @@ hr {
 
 	.work {
 		flex-basis: 30%;
-		max-height: 200px;
 	}
 }
 
