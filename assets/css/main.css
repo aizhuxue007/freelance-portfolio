@@ -464,6 +464,10 @@ hr {
 	margin-bottom: 4em;
 }
 
+h2 {
+	font-size: 2rem;
+}
+
 .hero {
 	display: flex;
 	flex-direction: column;
@@ -588,6 +592,8 @@ a {
 #about-me {
 	display: flex;
 	flex-direction: column;
+	justify-content: center;
+	align-items: center;
 	margin-bottom: 2em;
 }
 
@@ -597,6 +603,7 @@ a {
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	margin-bottom: 2em;
 }
 
 .about-me__pic img {
